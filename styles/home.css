@@ -1,0 +1,140 @@
+.hero {
+  background-color: #212121;
+  position: relative;
+  height: 90vh;
+  color: #f2f2f2;
+}
+.hero__bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8rem;
+}
+.hero__h1 {
+  font-size: 2.5rem;
+  width: 25%;
+  line-height: 1.5;
+}
+.hero__p {
+  margin: 2rem 0;
+  width: 37%;
+  line-height: 1.3;
+}
+.hero__btn {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  display: block;
+  color: #212121;
+  font-size: 1rem;
+  transition: 0.5s ease-in-out;
+}
+.hero__btn:hover {
+  background: #212121;
+  color: #f2f2f2;
+}
+
+.about {
+  padding: 5rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__bio {
+  padding-top: 0.8rem;
+}
+.about__subtitle {
+  font-size: 1.2rem;
+  color: #787878;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.about__h2 {
+  font-size: 3rem;
+}
+.about__span {
+  display: block;
+  line-height: 6rem;
+  font-size: 3rem;
+}
+.about__text {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about__p {
+  margin: 0.9rem 0;
+  line-height: 1.5;
+}
+.about__btn {
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 100%;
+  color: #f2f2f2;
+  background-color: #212121;
+  font-size: 1rem;
+  transition: 0.5s ease;
+}
+.about__btn:hover {
+  background-color: #f2f2f2;
+  color: #212121;
+  border: 1px solid #212121;
+}
+
+.lookbook {
+  display: flex;
+  padding: 3rem 8rem;
+}
+.lookbook__left {
+  width: 50%;
+  height: 110.5%;
+  overflow: hidden;
+}
+.lookbook__i {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 1rem;
+}
+.lookbook__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.lookbook__top {
+  display: flex;
+}
+.lookbook__row1 {
+  width: 50%;
+  margin: 0 1rem;
+}
+.lookbook__row12 {
+  width: 50%;
+}
+.lookbook__ii {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.lookbook__iiv {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.lookbook__bottom {
+  height: 25.2vh;
+}
+.lookbook__iii {
+  height: 100%;
+  width: 100%;
+  margin: 1rem 0 0 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,57 @@
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// HEADER
+
+.header {
+  &__ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $blush-bg-outline;
+    color: $blush-fill-outline;
+    height: 4vh;
+    padding: 1.3rem;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    background-color: $blush-bg-white;
+  }
+
+  &__logo {
+    text-decoration: none;
+    color: $blush-black;
+    font-weight: 600;
+    letter-spacing: 1rem;
+  }
+
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
+    padding: 0 0.5rem;
+    color: #787878;
+    transition: 300ms ease;
+
+    &:hover {
+      color: $blush-black;
+    }
+  }
+}
