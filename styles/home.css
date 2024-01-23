@@ -137,4 +137,11 @@
   margin: 1rem 0 0 1rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.accordion {
+  padding: 5rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=home.css.map */

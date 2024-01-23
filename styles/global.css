@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 8rem;
+  padding: 1.5rem 5rem;
   background-color: #f2f2f2;
 }
 .header__logo {
@@ -42,4 +42,4 @@
 }
 .header__link:hover {
   color: #212121;
-} /*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */
